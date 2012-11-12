@@ -10,9 +10,9 @@ class Vector
   def to_s
     "(#{@x}, #{@y})"
   end
-  def <=> other
-    length <=> other.length
-  end
+  #def <=> other
+  #  length <=> other.length
+  #end
 end
 
 arr = []
